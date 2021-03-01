@@ -83,3 +83,10 @@ a{
   font-size: 30px;
  
 }
+.grid-item{
+  color: purple;
+  font-style: normal;
+  text-decoration:underline;
+  font-family: cursive;
+  
+}

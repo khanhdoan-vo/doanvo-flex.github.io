@@ -60,20 +60,26 @@ a{
 .where{
   color:rgb(105, 149, 247)
 }
-.grid-container {
-  display: grid;
-  background-color: purple;
-  padding: 5px;
+
+
   
-}
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  .flex-container {
+  background-color: pink;
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
   font-size: 30px;
+  text-align: flex-end;
+    display: flex;
+  justify-content: space-between;
+
+}
+
+.flex-container > div {
+ 
+  width: 500px;
+  margin: 10px;
   text-align: center;
-  display: flex;
-  flex-direction: row;
-   justify-content: center;
-  align-items: flex-end;
+  line-height: 75px;
+  font-size: 30px;
+ 
 }
